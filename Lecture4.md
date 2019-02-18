@@ -17,4 +17,19 @@
   * All samples for a given node belong to the same class
   * There are no remaining attributes for further partitioning – majority voting is employed for classifying the leaf
   * There are no samples left – use majority voting in the parent partition
-## Computing Information-Gain for Continuous-Valued Attributes
+## Comparing Attribute Selection Measures
+* Information gain:
+  * biased towards multivalued attributes
+* Gain ratio:
+  * tends to prefer unbalanced splits in which one partition is much smaller than the others (why?)
+* Gini index:
+  * biased to multivalued attributes
+## Overfitting and Tree Pruning
+* Overfitting: An induced tree may overfit the training data
+  * Too many branches, some may reflect anomalies due to noise or outliers
+  * Poor accuracy for unseen samples
+* Two approaches to avoid overfitting
+  * Prepruning: Halt tree construction early ̵do not split a node if this would result in the goodness measure falling below a threshold
+    * Difficult to choose an appropriate threshold
+  * Postpruning: Remove branches from a “fully grown” tree—get a sequence of progressively pruned trees
+    * Use validation dataset to decide which is the “best pruned tree”
