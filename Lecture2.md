@@ -1,4 +1,4 @@
-# Lecture 2
+# Lecture 2: Linear Regression
 ## Vector Data
 * Matrix of n x p
   * n data objects / points
