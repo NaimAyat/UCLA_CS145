@@ -59,7 +59,7 @@
 ### DBSCAN Algorithm
 ```
 mark all objects as unvisited;
-do
+while there exists an unvisited object:
   randomly select an unvisited object p;
   mark p as visited;
   if the neighborhood of p has at least MinPts objects:
@@ -72,5 +72,4 @@ do
       if p' is not yet a member of any cluster, add p' to C;
     output C;
   else mark p as noise;
-end when no object is unvisited
 ```
