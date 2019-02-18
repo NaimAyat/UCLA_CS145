@@ -33,3 +33,10 @@
     * Difficult to choose an appropriate threshold
   * Postpruning: Remove branches from a “fully grown” tree—get a sequence of progressively pruned trees
     * Use validation dataset to decide which is the “best pruned tree”
+## Regression Trees
+* Target variable
+  * From categorical variable to continuous variable
+* Attribute selection criterion
+  * Measure the purity of continuous target variable in each partition
+* Leaf node
+  * A simple model for that partition, e.g., average
