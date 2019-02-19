@@ -70,3 +70,5 @@
   * Wish to learn the inherent structure of our data without using explicitly-provided labels
 # Review Questions
 * [Information gain computation in decision tree](https://www.youtube.com/watch?v=wIDn_Wnt6UE)
+* SVM problem in HW2
+* Neural network forward computation
