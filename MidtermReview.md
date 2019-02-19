@@ -51,3 +51,14 @@
   * Can find clusters of any shape or size
 * Drawback
   * Sensitive to selection of N and MinPoints
+## Mixture Models
+* Two types of clustering
+  * Hard clustering: clusters do not overlap
+  * Soft clustering: clusters may overlap with confidence %
+* Mixture models are a method of soft clustering
+### [EM Algorithm](https://www.youtube.com/watch?v=REypj2sy_5U)
+* Start with two randomly placed gaussians
+* For each point: does it look like it came from this distribution?
+* Iterate until convergence
+# Prediction
+## [Linear Regression](https://www.youtube.com/watch?v=yMgFHbjbAW8)
