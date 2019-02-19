@@ -62,3 +62,9 @@
 * Iterate until convergence
 # Prediction
 ## [Linear Regression](https://www.youtube.com/watch?v=yMgFHbjbAW8)
+# Misc
+## Supervised vs. Unsupervised Learning
+* Supervised: classification
+  * Classify data based on known categories
+* Unsupervised: clustering
+  * Wish to learn the inherent structure of our data without using explicitly-provided labels
