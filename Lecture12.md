@@ -44,3 +44,10 @@
   * repeat until no frequent sequence or no candidate can be found
 * Major strength: Candidate pruning by Apriori
 ## Candidate Generate-and-test: Drawbacks
+* A huge set of candidate sequences generated.
+  * Especially 2-item candidate sequence.
+* Multiple Scans of database needed.
+  * The length of each candidate grows by one at each database scan.
+* Inefficient for mining long sequential patterns.
+  * A long pattern grow up from short patterns
+  * The number of short patterns is exponential to the length of mined patterns.
