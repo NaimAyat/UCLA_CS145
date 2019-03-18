@@ -43,3 +43,4 @@
     * generate candidate length-(k+1) sequences from length-k frequent sequences using Apriori
   * repeat until no frequent sequence or no candidate can be found
 * Major strength: Candidate pruning by Apriori
+## Candidate Generate-and-test: Drawbacks
