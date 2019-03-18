@@ -5,3 +5,13 @@
     * 𝑌 = { 𝑌1, 𝑌2, … }
   * An observation of a time series with length N is represented as:
     * 𝑌 = {𝑦1, 𝑦2, … , 𝑦𝑁}
+## Why Similarity Search?
+* Wide applications
+  * Find a time period with similar inflation rate and unemployment time series?
+  * Find a similar stock to Facebook?
+  * Find a similar product to a query one according to sale time series?
+## Similarity Search for Time Series Data
+* Time Series Similarity Search
+  * Euclidean distances and 𝐿𝐿𝑝𝑝 norms
+  * Dynamic Time Warping (DTW)
+  * Time Domain vs. Frequency Domain
