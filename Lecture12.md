@@ -76,4 +76,8 @@
 ## Finding Seq. Patterns with Prefix <a>
 * Only need to consider projections w.r.t. <a>
 * Find all the length-2 seq. pat. Having prefix <a>: <aa>, <ab>, <(ab)>, <ac>, <ad>, <af>
- 
+## Efficiency of PrefixSpan
+* No candidate sequence needs to be generated
+* Projected databases keep shrinking
+* Major cost of PrefixSpan: Constructing projected databases
+  * Can be improved by pseudo-projections
