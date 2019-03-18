@@ -66,7 +66,7 @@
 * Let 𝛼 be a sequential pattern, 𝛼-projected database is the collection of suffixes of projections of sequences in the database w.r.t. prefix 𝛼
 ## Mining Sequential Patterns by Prefix Projections
 * Step 1: find length-1 sequential patterns
-  * <a>, <b>, <c>, <d>, <e>, <f>
+  * `<a>, <b>, <c>, <d>, <e>, <f>`
 * Step 2: divide search space. The complete set of seq. pat. can be partitioned into 6 subsets:
   * The ones having prefix <a>
   * The ones having prefix <b> ...
