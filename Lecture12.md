@@ -68,9 +68,8 @@
 * Step 1: find length-1 sequential patterns
   * <a>, <b>, <c>, <d>, <e>, <f>
 * Step 2: divide search space. The complete set of seq. pat. can be partitioned into 6 subsets:
-  * The ones having prefix <a>;
-  * The ones having prefix <b>;
-  *  …
+  * The ones having prefix <a>
+  * The ones having prefix <b> ...
   * The ones having prefix <f>
 * Step 3: mine each subset recursively via corresponding projected databases
 ## Finding Seq. Patterns with Prefix <a>
