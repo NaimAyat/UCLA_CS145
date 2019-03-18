@@ -53,9 +53,9 @@
   * The number of short patterns is exponential to the length of mined patterns.
 ## Prefix and Suffix
 * Assume a pre-specified order on items, e.g., alphabetical order
-* <a>, <aa>, <a(ab)> and <a(abc)> are prefixes of sequence <a(abc)(ac)d(cf)>
-  * Note <a(ac)> is not a prefix of <a(abc)(ac)d(cf)>
-* Given sequence <a(abc)(ac)d(cf)>
+* `<a>, <aa>, <a(ab)> and <a(abc)> are prefixes of sequence <a(abc)(ac)d(cf)>`
+  * Note `<a(ac)>` is not a prefix of `<a(abc)(ac)d(cf)>`
+* Given sequence `<a(abc)(ac)d(cf)>`
   * (_bc) means: the last element in the prefix together with (bc) form one element
 ## Prefix-based Projection
 * Given a sequence 𝛼, let 𝛼′ be subsequence
@@ -68,13 +68,13 @@
 * Step 1: find length-1 sequential patterns
   * `<a>, <b>, <c>, <d>, <e>, <f>`
 * Step 2: divide search space. The complete set of seq. pat. can be partitioned into 6 subsets:
-  * The ones having prefix <a>
-  * The ones having prefix <b> ...
-  * The ones having prefix <f>
+  * The ones having prefix `<a>`
+  * The ones having prefix `<b>` ...
+  * The ones having prefix `<f>`
 * Step 3: mine each subset recursively via corresponding projected databases
-## Finding Seq. Patterns with Prefix <a>
-* Only need to consider projections w.r.t. <a>
-* Find all the length-2 seq. pat. Having prefix <a>: <aa>, <ab>, <(ab)>, <ac>, <ad>, <af>
+## Finding Seq. Patterns with Prefix `<a>`
+* Only need to consider projections w.r.t. `<a>`
+* Find all the length-2 seq. pat. Having prefix `<a>: <aa>, <ab>, <(ab)>, <ac>, <ad>, <af>`
 ## Efficiency of PrefixSpan
 * No candidate sequence needs to be generated
 * Projected databases keep shrinking
