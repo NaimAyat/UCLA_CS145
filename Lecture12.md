@@ -11,10 +11,10 @@
 * Event / element
   * An non-empty set of items, e.g., e=(ab)
 * Sequence
-  * An ordered list of events, e.g., 𝑠𝑠 =< 𝑒𝑒1𝑒𝑒2 … 𝑒𝑒𝑙𝑙 >
+  * An ordered list of events
 * Length of a sequence
   * The number of instances of items in a sequence
-  * The length of < (ef) (ab) (df) c b > is 8 (Not 5!)
+  * The length of `< (ef) (ab) (df) c b >` is 8 (Not 5!)
 ## Sequential Pattern
 * Support of a sequence 𝛼
   *  Number of sequences in the database that are supersequence of 𝛼
