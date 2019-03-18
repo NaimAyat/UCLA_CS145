@@ -61,3 +61,38 @@
   * Construct conditional pattern base from FPtree
   * Construct conditional FP-tree from conditional pattern base
   * Until the tree has a single path or empty
+## Benefits of the FP-tree Structure
+* Completeness
+  * Preserve complete information for frequent pattern mining
+  * Never break a long pattern of any transaction
+* Compactness
+  * Reduce irrelevant info—infrequent items are gone
+  * Items in frequency descending order: the more frequently occurring, the more likely to be shared
+  * Never be larger than the original database (not count node-links and the count field)
+## Advantages of the Pattern Growth Approach
+* Divide-and-conquer:
+  * Decompose both the mining task and DB according to the frequent patterns obtained so far
+  * Lead to focused search of smaller databases
+* Other factors
+  * No candidate generation, no candidate test
+  * Compressed database: FP-tree structure
+  * No repeated scan of entire database
+  * Basic ops: counting local freq items and building sub FP-tree, no pattern search and matching
+## Correlation Analysis (Nominal Data)
+* 𝜒2 = Chi-square test = sum((observed-expected)^2/expected)
+* Independency test between two attributes
+  * The larger the 𝜒2 value, the more likely the variables are related
+* The cells that contribute the most to the 𝜒2 value are those whose actual count is very different from the expected count under independence assumption
+* Correlation does not imply causality
+  * # of hospitals and # of car-theft in a city are correlated
+  * Both are causally linked to the third variable: population
+## When Do We Need Chi-Square Test?
+Considering two attributes A and B
+* A: a nominal attribute with c distinct values,
+  * E.g., Grades of Math
+* B: a nominal attribute with r distinct values,
+  * E.g., Grades of Science
+* Question: Are A and B related?
+## Are lift and χ2 Good Measures of Correlation?
+* Lift and χ2 are affected by null-transaction
+* E.g., number of transactions that do not contain milk nor coffee
